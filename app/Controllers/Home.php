@@ -11,4 +11,17 @@ class Home extends BaseController
 		echo view('Layout/menu');		
 		echo view('Layout/pata');
 	}
+
+	public function frontend()
+	{
+		echo view('Layout/frontend');
+		echo view('Layout/hlava');
+		echo view('Layout/menu');		
+		echo view('Layout/pata');
+		
+
+	}
+
+
+
 }
