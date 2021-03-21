@@ -1,0 +1,187 @@
+CRITICAL - 2021-03-21 06:10:28 --> syntax error, unexpected variable "$routes"
+#0 C:\xampp\htdocs\auta\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-03-21 06:10:32 --> syntax error, unexpected variable "$routes"
+#0 C:\xampp\htdocs\auta\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-03-21 06:59:29 --> Invalid file: menu.php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(8): view('menu')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 06:59:32 --> Invalid file: menu.php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(8): view('menu')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:04:04 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\auta\app\Views\hlavicka.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\auta\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\auta\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('hlavicka', Array, true)
+#4 C:\xampp\htdocs\auta\app\Controllers\Home.php(8): view('hlavicka')
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-21 07:04:04 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\auta\app\Views\hlavicka.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\auta\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\auta\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('hlavicka', Array, true)
+#4 C:\xampp\htdocs\auta\app\Controllers\Home.php(8): view('hlavicka')
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-21 07:04:05 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\auta\app\Views\hlavicka.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\auta\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\auta\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('hlavicka', Array, true)
+#4 C:\xampp\htdocs\auta\app\Controllers\Home.php(8): view('hlavicka')
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-21 07:07:49 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\auta\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\auta\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:07:50 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\auta\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\auta\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:08:35 --> Invalid file: .php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(9): view('')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:08:36 --> Invalid file: .php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(9): view('')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:09:05 --> Invalid file: index.php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('index.php', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(9): view('index.php')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:09:05 --> Invalid file: index.php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('index.php', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(9): view('index.php')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:09:11 --> Invalid file: index.php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(9): view('index')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:09:11 --> Invalid file: index.php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(9): view('index')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:09:16 --> Invalid file: home.php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(9): view('home')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:09:17 --> Invalid file: home.php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(9): view('home')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:14:39 --> Invalid file: home.php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(9): view('home')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:14:40 --> Invalid file: home.php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(9): view('home')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:15:01 --> Invalid file: home.php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(9): view('home')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 07:15:02 --> Invalid file: home.php
+#0 C:\xampp\htdocs\auta\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\auta\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\auta\app\Controllers\Home.php(9): view('home')
+#3 C:\xampp\htdocs\auta\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\auta\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\auta\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\auta\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

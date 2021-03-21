@@ -4,24 +4,8 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-	public function index()
+	public function hlavni()
 	{
-		
-		echo view('Layout/hlava');
-		echo view('Layout/menu');		
-		echo view('Layout/pata');
+		echo view("menu");
 	}
-
-	public function frontend()
-	{
-		echo view('Layout/frontend');
-		echo view('Layout/hlava');
-		echo view('Layout/menu');		
-		echo view('Layout/pata');
-		
-
-	}
-
-
-
 }
