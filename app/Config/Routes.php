@@ -23,6 +23,12 @@ $routes->setDefaultMethod('hlavni');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->setAutoRoute(true);
+$routes->group('auth', ['Register' => 'IonAuth\Controllers'], function ($routes) {
+    $routes->get('/', 'Auth::index');
+    $routes->add('login', 'Auth::login');
+    $routes->get('logout', 'Auth::logout');
+    $routes->get('forgot_password', 'Auth::forgot_password');
+});
 
 /*
  * --------------------------------------------------------------------
