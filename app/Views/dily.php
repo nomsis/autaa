@@ -14,7 +14,7 @@
       <th scope="col">Název</th>
       <th scope="col">Cena za kus</th>
       <th scope="col">Množství na skladě</th>
-      
+     
 
     </tr>
   </thead>
@@ -30,6 +30,7 @@
             <td> 
                 <?php echo $d['sklad']; ?>
             </td>
+            
             <td> 
 
     </tr>
