@@ -33,11 +33,35 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::hlavni');
+$routes->get('pridatDil', 'Home::pridatDil');
+$routes->post('zapsatDil', 'Home::zapsatDil');
+$routes->get('upravaDilu/(:num)','Home::upravaDilu/$1');
+$routes->put('zapsatUpravuDilu/(:num)','Home::zapsatUpravuDilu/$1');
+$routes->get('smazatDil/(:num)','Home::smazatDil/$1');
+$routes->get('dily','Home::vypisDilu');
 
-$routes->group('auth', ['namespace' => 'IonAuth\Controllers'], function ($routes) {
+$routes->get('pridatZakaznika', 'Home::pridatZakaznika');
+$routes->post('zapsatZakaznika', 'Home::zapsatZakaznika');
+$routes->get('upravaZakaznika/(:num)','Home::upravaZakaznika/$1');
+$routes->put('zapsatUpravuZakaznika/(:num)','Home::zapsatUpravuZakaznika/$1');
+$routes->get('smazatZakaznika/(:num)','Home::smazatZakaznika/$1');
+$routes->get('Zakaznici','Home::vypisZakazniku');
+
+$routes->get('pridatZamestnance', 'Home::pridatZamestnance');
+$routes->post('zapsatZamestnance', 'Home::zapsatZamestnance');
+$routes->get('upravaZamestnance/(:num)','Home::upravaZamestnance/$1');
+$routes->put('zapsatUpravuZamestnance/(:num)','Home::zapsatUpravuZamestnance/$1');
+$routes->get('smazatZamestnance/(:num)','Home::smazatZamestnance/$1');
+$routes->get('Zamestnanci','Home::vypisZamestnancu');
+
+	$routes->group('auth', ['namespace' => 'IonAuth\Controllers'], function ($routes) {
 	$routes->add('login', 'Auth::login');
 	$routes->get('logout', 'Auth::logout');
 	$routes->add('forgot_password', 'Auth::forgot_password');
+
+	
+	
+
 	//$routes->add('login', 'Auth::login');
 	//$routes->add('create_user', 'Auth::create_user');
 	//$routes->get('logout', 'Auth::logout');

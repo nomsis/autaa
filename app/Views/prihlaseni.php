@@ -21,13 +21,13 @@
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="/">Úvod <span class="sr-only">(current)</span> </a></li>               
                     <li class="nav-item active">
-                    <a class="nav-link" href="<?php echo base_url()?>/Home/vypisAut">Auta k opravě</a>
+                    <a class="nav-link" href="<?php echo base_url()?>/Home/vypisAut">Autíčka na opravu</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="<?php echo base_url()?>/Home/vypisZamestnancu">Zaměstnanci</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="<?php echo base_url()?>/Home/vypisDilu">Díly na skladě</a>
+                    <a class="nav-link" href="<?php echo base_url()?>/Home/vypisDilu">Díly</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="<?php echo base_url()?>/Home/vypisZakazniku">Zákaznicí</a>

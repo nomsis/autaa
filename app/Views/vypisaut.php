@@ -40,6 +40,8 @@
             <td> 
                 <?php echo $a['prevodovka']; ?>
             </td>
+            
+            
     </tr>
   <?php endforeach; ?>
   </tbody>

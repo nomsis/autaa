@@ -6,7 +6,8 @@ class Zakaznici extends Model
 {
     
     protected $table = 'majitele';
-    protected $allowedFields = ['jmeno', 'prijmeni', 'adresa', 'telefon', 'email'];
+    protected $primaryKey = 'idmajitele';
+    protected $allowedFields = ['jmeno', 'prijmeni', 'adresa', 'telefon', 'email', 'idmajitele'];
     
 
     

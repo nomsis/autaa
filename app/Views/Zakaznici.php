@@ -1,12 +1,12 @@
-<style>
-.obsah{
-    float: center;
-    width: 98%;
-    height: 85%;
-    
-}
-
-</style>
+<div class="container mt-4">
+<div class="row">
+<div class ="col-md-12">
+<div class ="card">
+<div class="card-header">
+  <h5>Zákazníci
+    <a href="<?= base_url('pridatZakaznika') ?>" class="btn btn-info btn-sm float-end">Přidat</a>
+  </h5>
+</div>
 <div class="container obsah">
   <table class="table">
   <thead>
@@ -16,6 +16,7 @@
       <th scope="col">Email</th>
       <th scope="col">Telefon</th>
       <th scope="col">Adresa</th>
+      <th scope="col">Úprava</th>  
       
     </tr>
   </thead>
@@ -37,9 +38,16 @@
             <td> 
                 <?php echo $z['adresa']; ?>
             </td>
+            <td>
+              <a href="<?= base_url('upravaZakaznika/'.$z['idmajitele'])?>" class="btn btn-primary btn-sm">Upravit</a> 
+              <a href="<?= base_url('smazatZakaznika/'.$z['idmajitele'])?>" class="btn btn-primary btn-sm">Vymazat</a> 
+          </td>
           
     </tr>
   <?php endforeach; ?>
   </tbody>
 </table>
+</div>
+</div>
+</div>
 </div>

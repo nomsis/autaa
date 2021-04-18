@@ -1,10 +1,3 @@
-<style>
-.obsah{
-    float: center;
-    width: 98%;
-    height: 85%;
-    
-}
-
-</style>
+<div class="container">
 <h3>Položka přidána!</h3>
+</div>

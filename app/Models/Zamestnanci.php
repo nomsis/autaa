@@ -6,6 +6,7 @@ class Zamestnanci extends Model
 {
     
     protected $table = 'zamestnanci';
+    protected $primaryKey = 'osobnicislo';
     protected $allowedFields = ['jmeno', 'prijmeni', 'osobnicislo'];
     
 

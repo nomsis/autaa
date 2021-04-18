@@ -6,8 +6,9 @@ class Dily extends Model
 {
     
     protected $table = 'nahradni_dily';
-    protected $allowedFields = ['nazev', 'cena', 'sklad'];
+    protected $primaryKey = 'iddilu';
+    protected $allowedFields = ['nazev', 'cena', 'sklad','iddilu'];
     
-
+    
     
 }

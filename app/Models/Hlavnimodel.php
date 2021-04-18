@@ -6,7 +6,9 @@ class Hlavnimodel extends Model
 {
     
     protected $table = 'automobily';
-    protected $allowedFields = ['registracni_znacka', 'vyrobce', 'typ_voze', 'rok_vyroby', 'obsah_motoru', 'prevodovka'];
+    protected $primaryKey = 'idautomobily';
+    protected $allowedFields = ['registracni_znacka', 'vyrobce', 'typ_voze', 'rok_vyroby', 'obsah_motoru', 'prevodovka','idautomobily'];
+    
     
 
     
