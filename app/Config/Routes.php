@@ -54,6 +54,13 @@ $routes->put('zapsatUpravuZamestnance/(:num)','Home::zapsatUpravuZamestnance/$1'
 $routes->get('smazatZamestnance/(:num)','Home::smazatZamestnance/$1');
 $routes->get('Zamestnanci','Home::vypisZamestnancu');
 
+$routes->get('pridatOpravu', 'Home::pridatOpravu');
+$routes->post('zapsatOpravy', 'Home::zapsatOpravy');
+$routes->get('upravaOpravy/(:num)','Home::upravaOpravy/$1');
+$routes->put('zapsatUpravuOpravy/(:num)','Home::zapsatUpravuOpravy/$1');
+$routes->get('smazatOpravu/(:num)','Home::smazatOpravu/$1');
+$routes->get('opravy','Home::vypisOpravy');
+
 	$routes->group('auth', ['namespace' => 'IonAuth\Controllers'], function ($routes) {
 	$routes->add('login', 'Auth::login');
 	$routes->get('logout', 'Auth::logout');

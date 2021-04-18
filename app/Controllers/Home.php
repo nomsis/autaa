@@ -4,7 +4,9 @@ use App\Models\Hlavnimodel;
 use App\Models\Dily;
 use App\Models\Zakaznici;
 use App\Models\Zamestnanci;
+use App\Models\Opravy;
 use Codeigniter\Controller;
+
 
 class Home extends BaseController
 {
@@ -65,28 +67,15 @@ class Home extends BaseController
 		echo view('Zakaznici', $data);
 		
 	}
-	public function zapis()
-	{
-		$data = ['vyrobce' => $this->request->getVar('vyrobce'),
-				'typ_vozu' => $this->request->getVar('typ_vozu'),
-				'registracni_znacka' => $this->request->getVar('registranci_znacka'),
-				'rok_vyroby' => $this->request->getVar('rok_vyroby'),
-				'obsah_motoru' => $this->request->getVar('obsah_motoru'),
-				'prevodovka' => $this->request->getVar('prevodovka')];
-				$model = new Hlavnimodel();
-				$model->insert($data);
 
-			echo view('prihlaseni');
-			echo view('polozka');
-			
-	
-	
-
-	}
-	public function form()
+	public function vypisOpravy()
 	{
+		$model = new Opravy();
+		$data['opravy'] = $model->findAll();
+		
+
 		echo view('prihlaseni');
-		echo view('objednavka');
+		echo view('opravy', $data);
 		
 	}
 	public function upravaDilu($id = null){
@@ -243,5 +232,57 @@ class Home extends BaseController
 					$zamestnanci->delete($id);
 					return redirect()->to(base_url('Zamestnanci'));
 				}
-}
+
+				public function upravaOpravy($id = null){
+					$opravy = new Opravy();
+					$data['opravy'] = $opravy->find($id);
+					$this->ionAuth = new \IonAuth\Libraries\IonAuth(); 
+					if(!$this->ionAuth->loggedIn())echo view('head');
+					else echo view('prihlaseni');
+					return view('upravaOpravy', $data);
+				}
+				
+				public function zapsatOpravy(){
+					$opravy = new Opravy();
+					$data = [
+						'automobily_idautomobily' => $this->request->getPost('automobily_idautomobily'),
+						'zamestnanci_osobnicislo' => $this->request->getPost('zamestnanci_osobnicislo'),
+						'nahradni_dily_iddilu' => $this->request->getPost('nahradni_dily_iddilu'),
+					
+				
+			
+					];
+					$opravy->save($data);
+					return redirect()->to(base_url('opravy'));
+				
+				}
+				public function zapsatUpravuOpravy($id = null){
+					$opravy = new Opravy();
+					$data = [
+						'automobily_idautomobily' => $this->request->getPost('automobily_idautomobily'),
+						'zamestnanci_osobnicislo' => $this->request->getPost('zamestnanci_osobnicislo'),
+						'nahradni_dily_iddilu' => $this->request->getPost('nahradni_dily_iddilu'),
+			
+			
+					];
+					$opravy->update($id, $data);
+					return redirect()->to(base_url('opravy'));
+				}
+			
+				public function pridatOpravu(){
+					$this->ionAuth = new \IonAuth\Libraries\IonAuth(); 
+					if(!$this->ionAuth->loggedIn())echo view('head');
+					else echo view('prihlaseni');
+					echo view('pridatOpravu');
+			
+					}
+					
+					public function smazatOpravu($id = null){
+						$opravy = new Opravy();
+						$opravy->delete($id);
+						return redirect()->to(base_url('opravy'));
+					}
+
+			}
+
 ?>

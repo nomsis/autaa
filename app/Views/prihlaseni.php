@@ -32,8 +32,9 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="<?php echo base_url()?>/Home/vypisZakazniku">Zákaznicí</a>
                 </li>
+               
                 <li class="nav-item active">
-                    <a class="nav-link" href="<?php echo base_url()?>/Home/form">Objednávka</a>
+                    <a class="nav-link" href="<?php echo base_url()?>/Home/vypisOpravy">Opravy</a>
                 </li>
                     <li class="nav-item"><a class="nav-link" href="<?php echo base_url("auth/logout")?>">odhlásit </a></li>
                 </ul>
