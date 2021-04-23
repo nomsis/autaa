@@ -30,10 +30,7 @@
                             <label>Email</label>
                             <input type="text" name="email" value="<?= $majitele['email'] ?>" class="form-control" placeholder="Na skladu" required>
                         </div>
-                        <div class="form-group mb-2">
-                            <label>Automobily_id</label>
-                            <input type="text" name="automobily_idautomobily" value="<?= $majitele['automobily_idautomobily'] ?>" class="form-control" placeholder="Na skladu" required>
-                        </div>
+                    
                         
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary mt-2">Uložit</button>

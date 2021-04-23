@@ -1,3 +1,11 @@
+<?php $db = \Config\Database::connect(); 
+
+?>
+
+<?php
+$query   = $db->query('SELECT id_opravy, automobily.vyrobce as automobily, zamestnanci.prijmeni as zamestnanci, nahradni_dily.nazev as dily FROM opravy inner join automobily on opravy.automobily_idautomobily = automobily.idautomobily inner join zamestnanci on opravy.zamestananci_osobnicislo = zamestnanci.osobnicislo inner join nahradni_dily on opravy.nahradni_dily_iddilu = nahradni_dily.iddilu');
+$results = $query->getResultArray();
+?>
 <div class="container mt-4">
 <div class="row">
 <div class ="col-md-12">
@@ -18,25 +26,25 @@
   </tr>
 </thead>
 <tbody>
-    <?php foreach($opravy as $o): ?>
+    <?php foreach($results as $o): ?>
       <tr>
           
           <td>
-              <?php echo $o['automobily_idautomobily'];?>       
+              <?php echo $o['automobily'];?>       
           </td>
             
           <td> 
-              <?php echo $o['nahradni_dily_iddilu']; ?>
+              <?php echo $o['dily']; ?>
           </td>
             
           <td> 
-              <?php echo $o['zamestananci_osobnicislo']; ?>
+              <?php echo $o['zamestnanci']; ?>
           </td>
           
             
           <td>
-              <a href="<?= base_url('upravaOpravy/'.$o['automobily_idautomobily'])?>" class="btn btn-primary btn-sm">Upravit</a> 
-              <a href="<?= base_url('smazatOpravu/'.$o['automobily_idautomobily'])?>" class="btn btn-primary btn-sm">Vymazat</a> 
+              <a href="<?= base_url('upravaOpravy/'.$o['id_opravy'])?>" class="btn btn-primary btn-sm">Upravit</a> 
+              <a href="<?= base_url('smazatOpravu/'.$o['id_opravy'])?>" class="btn btn-primary btn-sm">Vymazat</a> 
           </td>
       </tr>
 <?php endforeach; ?>

@@ -6,8 +6,8 @@ class Opravy extends Model
 {
     
     protected $table = 'opravy';
-    protected $primaryKey = 'automobily_idautomobily';
-    protected $allowedFields = ['automobily_idautomobily', 'zamestnanci_osobnicislo', 'nahradni_dily_iddilu'];
+    protected $primaryKey = 'id_opravy';
+    protected $allowedFields = ['automobily_idautomobily', 'zamestananci_osobnicislo', 'nahradni_dily_iddilu', 'id_opravy'];
     
     
     

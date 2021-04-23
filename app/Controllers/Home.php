@@ -197,7 +197,7 @@ class Home extends BaseController
 				$data = [
 					'jmeno' => $this->request->getPost('jmeno'),
 					'prijmeni' => $this->request->getPost('prijmeni'),
-					'osobnicislo' => $this->request->getPost('osobnicislo'),
+					
 				
 			
 		
@@ -246,7 +246,7 @@ class Home extends BaseController
 					$opravy = new Opravy();
 					$data = [
 						'automobily_idautomobily' => $this->request->getPost('automobily_idautomobily'),
-						'zamestnanci_osobnicislo' => $this->request->getPost('zamestnanci_osobnicislo'),
+						'zamestananci_osobnicislo' => $this->request->getPost('zamestananci_osobnicislo'),
 						'nahradni_dily_iddilu' => $this->request->getPost('nahradni_dily_iddilu'),
 					
 				
@@ -260,7 +260,7 @@ class Home extends BaseController
 					$opravy = new Opravy();
 					$data = [
 						'automobily_idautomobily' => $this->request->getPost('automobily_idautomobily'),
-						'zamestnanci_osobnicislo' => $this->request->getPost('zamestnanci_osobnicislo'),
+						'zamestananci_osobnicislo' => $this->request->getPost('zamestananci_osobnicislo'),
 						'nahradni_dily_iddilu' => $this->request->getPost('nahradni_dily_iddilu'),
 			
 			

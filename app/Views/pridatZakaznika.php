@@ -29,10 +29,7 @@
                             <label>Email</label>
                             <input type="text" name="email" class="form-control" placeholder="email" required>
                         </div>
-                        <div class="form-group mb-2">
-                            <label>Automobily_id</label>
-                            <input type="text" name="automobily_idautomobily" class="form-control" placeholder="automobil_id" required>
-                        </div>
+                       
 
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary mt-2">Uložit</button>

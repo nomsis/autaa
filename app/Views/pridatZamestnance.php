@@ -17,10 +17,7 @@
                             <label>Příjmení</label>
                             <input type="text" name="prijmeni" class="form-control" placeholder="prijmeni" required>
                         </div>
-                        <div class="form-group mb-2">
-                            <label>osobnicislo</label>
-                            <input type="text" name="osobnicislo" class="form-control" placeholder="osobnicislo" required>
-                        </div>
+                     
                       
 
                         <div class="form-group">
