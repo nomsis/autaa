@@ -15,11 +15,11 @@
                         </div>
                         <div class="form-group mb-2">
                             <label>Cena</label>
-                            <input type="text" name="cena" class="form-control" placeholder="Cena" required>
+                            <input type="number" name="cena" class="form-control" placeholder="Cena" required>
                         </div>
                         <div class="form-group mb-2">
                             <label>Na skladu</label>
-                            <input type="text" name="sklad" class="form-control" placeholder="Na skladu" required>
+                            <input type="number" name="sklad" class="form-control" placeholder="Na skladu" required>
                         </div>
 
                         <div class="form-group">
