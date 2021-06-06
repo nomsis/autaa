@@ -23,11 +23,11 @@
                         </div>
                         <div class="form-group mb-2">
                             <label>Telefon</label>
-                            <input type="text" name="telefon" class="form-control" placeholder="Telefon" required>
+                            <input type="number" name="telefon" class="form-control" placeholder="Telefon" required>
                         </div>
                         <div class="form-group mb-2">
                             <label>Email</label>
-                            <input type="text" name="email" class="form-control" placeholder="email" required>
+                            <input type="email" name="email" class="form-control" placeholder="email" required>
                         </div>
                        
 
